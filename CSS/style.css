@@ -21,3 +21,34 @@
 body {
   background-color: hsl(0, 0%, 95%);
 }
+
+.card {
+  width: 921px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "sedans svus luxury";
+}
+
+.sedans,
+.suvs,
+.luxury {
+  width: 307px;
+  height: 500px;
+}
+
+.sedans {
+  grid-area: "sedans";
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  grid-area: "suvs";
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  grid-area: "luxury";
+  background-color: hsl(179, 100%, 13%);
+}
