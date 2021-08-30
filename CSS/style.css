@@ -80,7 +80,7 @@ h2 {
 
 h2 {
   font-family: "Big Shoulders Display", cursive;
-  font-size: 34px;
+  font-size: 38px;
   color: hsl(0, 0%, 95%);
   padding-left: 3px;
 }
@@ -88,7 +88,7 @@ h2 {
 p {
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
-  font-size: 13px;
+  font-size: 15px;
   padding-top: 20px;
   line-height: 25px;
 }
