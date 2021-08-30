@@ -25,7 +25,7 @@ body {
 .card {
   width: 921px;
   height: 500px;
-  margin: 0 auto;
+  margin: 225px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "sedans svus luxury";
@@ -36,11 +36,14 @@ body {
 .luxury {
   width: 307px;
   height: 500px;
+  display: flex;
+  justify-content: center;
 }
 
 .sedans {
   grid-area: "sedans";
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
 
 .suvs {
@@ -51,4 +54,14 @@ body {
 .luxury {
   grid-area: "luxury";
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.sedansInside,
+.suvsInside,
+.luxuryInside {
+  width: 227px;
+  height: 420px;
+  display: grid;
+  grid-template-rows: 90px 90px 200px 40px;
 }
