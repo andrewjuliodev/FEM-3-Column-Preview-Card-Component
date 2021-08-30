@@ -9,13 +9,18 @@
   color: hsl(228, 45%, 44%);
 }
 
+/*
 .frame {
   border: 1px solid red;
-}
+}*/
 
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -64,4 +69,63 @@ body {
   height: 420px;
   display: grid;
   grid-template-rows: 90px 90px 200px 40px;
+}
+
+.img {
+  padding-top: 50px;
+}
+h2 {
+  padding-top: 35px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 34px;
+  color: hsl(0, 0%, 95%);
+  padding-left: 3px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 13px;
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  margin-top: 30px;
+}
+
+.sedansInside .btn a {
+  color: hsl(31, 77%, 52%);
+}
+.suvsInside .btn a {
+  color: hsl(184, 100%, 22%);
+}
+.luxuryInside .btn a {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn:hover a {
+  color: hsl(0, 0%, 95%);
+}
+
+.sedansInside .btn:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+.suvsInside .btn:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxuryInside .btn:hover {
+  background-color: hsl(179, 100%, 13%);
 }
